@@ -1,2 +1,2 @@
 # intrepidbot
-https://sites.google.com/intrepidbot
+https://sites.google.com/view/intrepidbot
