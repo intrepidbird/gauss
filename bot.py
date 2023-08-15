@@ -60,7 +60,7 @@ async def helper(ctx):
 @bot.command()
 async def calc(ctx, *, expression: str):
     try:
-        result = eval(expression)
+        result = ast.literal_eval(expression)
         await ctx.send(f"The result is: {result}")
     except:
         await ctx.send("Sorry, I couldn't understand that expression. Please make sure it's a valid arithmetic expression.")
