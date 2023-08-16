@@ -188,4 +188,4 @@ async def graph2_command(ctx, equation: str):
     buf.seek(0)
     await ctx.send(file=discord.File(buf, 'graph.png'))
 
-bot.run('[my_bot_token_nobody_else_may_know_;)]')
+bot.run('[redacted token]')
