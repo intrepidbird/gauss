@@ -4,7 +4,7 @@ import random
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
-
+symbols = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
 
 @client.event
 async def on_message(message):
@@ -39,6 +39,31 @@ async def on_message(message):
             # calculate d using e and phi
             await message.channel.send('Not implemented yet')
 
+    if message.content.startswith('!caesar'):
+        method = message.content.split()[1:]
+        text = message.content.split()[2:]
+        key = message.content.split()[3:]
+        translation = ''
+
+        for symbol in text:
+            if symbol in symbols:
+                symbolIndex = symbols.find(symbol)
+                if method == 'encrypt':
+                    translateIndex = symbolIndex + key
+                elif method == 'decrypt':
+                    translateIndex = symbolIndex - key
+
+                if translateIndex >= len(symbols):
+                    translateIndex = translateIndex - len(symbols)
+                elif translateIndex < 0:
+                    translateIndex = translateIndex + len(symbols)
+
+                translation = translation + symbols[translateIndex]
+            else:
+                translation = translation + symbol
+
+
+
 @client.event
 async def on_message(message):
     if message.author == client.user:
@@ -46,7 +71,7 @@ async def on_message(message):
 
     if message.content.startswith('!iq'):
         name = message.author.name
-        if name[0].lower() in ['a', 'i']:
+        if name[0].lower() in ['a', 't']:
             iq = random.randint(300, 500)
         else:
             iq = 100
