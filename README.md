@@ -10,6 +10,8 @@ This is what happens when I accidentally add eval() huh?
 
 # intrepidbot ctf
 
-yeah it doesnt function YYYEEEET but it will decrypt lots of stuff like rsa and caesar when complete
+*In development / progress*
 
-check out the source code
+*beta testing is going on with multiple people working on it*
+
+Check out the source code for now please.
