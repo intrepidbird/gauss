@@ -21,7 +21,7 @@ async def gcd(ctx, a: int, b: int):
 async def graph(ctx, *, expression: str):
     try:
         x = np.linspace(-10, 10, 1000)
-        y = eval(expression, {'x': x, 'sin': np.sin, 'cos': np.cos, 'tan': np.tan, 'exp': np.exp, 'log': np.log})
+        y = ast.literal_eval(expression, {'x': x, 'sin': np.sin, 'cos': np.cos, 'tan': np.tan, 'exp': np.exp, 'log': np.log})
         fig = Figure()
         ax = fig.subplots()
         ax.plot(x, y)
@@ -177,15 +177,18 @@ async def answer_command(ctx, answer: str):
 
 @bot.command(name='graph2')
 async def graph2_command(ctx, equation: str):
-    x = np.linspace(-10, 10, 100)
-    y = eval(equation)
-    plt.plot(x, y)
-    plt.xlabel('x')
-    plt.ylabel('y')
-    plt.title(f'Graph of {equation}')
-    buf = BytesIO()
-    plt.savefig(buf, format='png')
-    buf.seek(0)
-    await ctx.send(file=discord.File(buf, 'graph.png'))
+    try:
+        x = np.linspace(-10, 10, 100)
+        y = ast.literal_eval(equation)
+        plt.plot(x, y)
+        plt.xlabel('x')
+        plt.ylabel('y')
+        plt.title(f'Graph of {equation}')
+        buf = BytesIO()
+        plt.savefig(buf, format='png')
+        buf.seek(0)
+        await ctx.send(file=discord.File(buf, 'graph.png'))
+    except:
+        await ctx.send("Sorry, I couldn't understand that expression. Please make sure it's a valid mathematical expression.")
 
 bot.run('[redacted token]')
