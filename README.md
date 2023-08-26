@@ -15,3 +15,7 @@ This is what happens when I accidentally add eval() huh?
 *beta testing is going on with multiple people working on it*
 
 Check out the source code for now please.
+
+# intrepidbot math
+
+Fully operational (but it's so good that it's private 😄)
