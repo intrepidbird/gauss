@@ -18,4 +18,4 @@ Check out the source code for now please.
 
 # intrepidbot math
 
-Fully operational (but it's so good that it's private 😄)
+Fully operational soon (but it's so good that it's private 😄)
