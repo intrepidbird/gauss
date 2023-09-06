@@ -19,6 +19,8 @@ Check out the source code for now please.
 # IntrepidBot Math
 
 Fully operational **ONLY** in DMs.
+
 Has multiple super advanced calculators.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 *All 3 Bots are licensed under the **MIT** License*
