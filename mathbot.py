@@ -3,8 +3,13 @@ from discord.ext import commands
 import math
 import matplotlib.pyplot as plt
 import numpy as np
+from discord import Intents
 
-bot = commands.Bot(command_prefix='!')
+intents = Intents.default()
+intents.messages = True
+
+bot = commands.Bot(command_prefix='!', intents=intents)
+
 
 @bot.command(name='calculate')
 async def calculate(ctx, *, expression: str):
@@ -40,4 +45,20 @@ async def factor(ctx, number: int):
             factors.append(i)
     await ctx.send(f"The factors of {number} are: {factors}")
 
+@bot.command(name='sqrt')
+async def sqrt(ctx, number: float):
+    if number < 0:
+        await ctx.send("Cannot calculate the square root of a negative number")
+    else:
+        result = math.sqrt(number)
+        await ctx.send(f"The square root of {number} is: {result}")
+
+@bot.command(name='log')
+async def log(ctx, number: float, base: float):
+    if number <= 0 or base <= 0:
+        await ctx.send("Cannot calculate the logarithm of a non-positive number or with a non-positive base")
+    else:
+        result = math.log(number, base)
+        await ctx.send(f"The logarithm base {base} of {number} is: {result}")
+        
 bot.run('[redacted]')
