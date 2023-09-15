@@ -29,7 +29,7 @@ status = cycle(['!help'])
 
 @bot.event
 async def on_ready(): change_status.start() 
-print("Your bot is ready")
+print("[+] Ready")
 
 @tasks.loop(seconds=10)
 async def change_status():
