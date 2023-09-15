@@ -139,4 +139,4 @@ async def abs(ctx, number: float):
     result = math.fabs(number)
     await ctx.send(f"The absolute value of {number} is: {result}")
 
-bot.run('MTE0NDc4MzExODM2MDkwNzg2Nw.GeNIya.WOQQhgT-T4kx60Z2iFT0NTl0aeoDcTp_B2mn8U')
+bot.run('[redacted]')
