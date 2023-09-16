@@ -10,8 +10,11 @@ from flask import Flask
 import cmath
 import statistics
 import numpy as np
+from asteval import Interpreter
 
+aeval = Interpreter()
 app = Flask('')
+
 @app.route('/')
 
 # 'Keep Alive' Stuff
@@ -23,7 +26,7 @@ def keep_alive():
     server = Thread(target=run) 
     server.start()
 
-intents = Intents.default()
+intents = Intents.all()
 intents.messages = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 status = cycle(['!help'])
@@ -43,12 +46,12 @@ async def flag(ctx):
     await ctx.send("intrepidbird{m47h3mag1c14n}")
 
 @bot.command(name='calculate')
-async def calculate(ctx, *, expression: str):
+async def calculate(ctx, expr):
     try:
-        result = eval(expression)
-        await ctx.send(f"The result is: {result}")
+        x = aeval(expr)
+        await ctx.send(x)
     except:
-        await ctx.send("Invalid expression")
+        await ctx.send('Please enter a valid mathematical expression.')
 
 @bot.command(name='graph')
 async def graph(ctx, *, expression: str):
