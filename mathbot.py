@@ -7,6 +7,9 @@ from threading import Thread
 import matplotlib.pyplot as plt
 import numpy as np
 from flask import Flask
+import cmath
+import statistics
+import numpy as np
 
 app = Flask('')
 @app.route('/')
@@ -22,9 +25,7 @@ def keep_alive():
 
 intents = Intents.default()
 intents.messages = True
-
 bot = commands.Bot(command_prefix='!', intents=intents)
-
 status = cycle(['!help'])
 
 @bot.event
@@ -36,6 +37,10 @@ async def change_status():
     await bot.change_presence(activity=discord.Game(next(status)))
 
 # Commands
+
+@bot.command(name='flag')
+async def flag(ctx):
+    await ctx.send("intrepidbird{m47h3mag1c14n}")
 
 @bot.command(name='calculate')
 async def calculate(ctx, *, expression: str):
@@ -139,4 +144,60 @@ async def abs(ctx, number: float):
     result = math.fabs(number)
     await ctx.send(f"The absolute value of {number} is: {result}")
 
-bot.run('[redacted]')
+@bot.command(name='pow')
+async def pow(ctx, base: float, exponent: float):
+    result = math.pow(base, exponent)
+    await ctx.send(f"{base} raised to the power of {exponent} is: {result}")
+
+@bot.command(name='mod')
+async def mod(ctx, number1: float, number2: float):
+    result = number1 % number2
+    await ctx.send(f"The remainder of the division of {number1} by {number2} is: {result}")
+
+@bot.command(name='hypot')
+async def hypot(ctx, side1: float, side2: float):
+    result = math.hypot(side1, side2)
+    await ctx.send(f"The length of the hypotenuse for a right triangle with sides {side1} and {side2} is: {result}")
+
+@bot.command(name='solve_quad')
+async def solve_quad(ctx, a: float, b: float, c: float):
+    d = (b**2) - (4*a*c)
+    sol1 = (-b-cmath.sqrt(d))/(2*a)
+    sol2 = (-b+cmath.sqrt(d))/(2*a)
+    await ctx.send(f"The solutions are {sol1} and {sol2}")
+
+@bot.command(name='std_dev')
+async def std_dev(ctx, *args: float):
+    data = list(args)
+    result = statistics.stdev(data)
+    await ctx.send(f"The standard deviation is {result}")
+
+@bot.command(name='fibonacci')
+async def fibonacci(ctx, n: int):
+    a, b = 0, 1
+    fib_sequence = []
+    while a < n:
+        fib_sequence.append(a)
+        a, b = b, a+b
+    await ctx.send(f"The Fibonacci sequence up to {n} is: {fib_sequence}")
+
+@bot.command(name='inverse_matrix')
+async def inverse_matrix(ctx, *args: float):
+    matrix = np.array(args).reshape((int(np.sqrt(len(args))), -1))
+    try:
+        inverse = np.linalg.inv(matrix)
+        await ctx.send(f"The inverse of the matrix is: {inverse}")
+    except np.linalg.LinAlgError:
+        await ctx.send("The matrix is not invertible.")
+
+@bot.command(name='goat')
+async def goat(ctx):
+    await ctx.send("Gauss is the Greatest of all Time in Mathematics")
+
+@bot.command(name='determinant')
+async def determinant(ctx, *args: float):
+    matrix = np.array(args).reshape((int(np.sqrt(len(args))), -1))
+    det = np.linalg.det(matrix)
+    await ctx.send(f"The determinant of the matrix is: {det}")
+
+bot.run('token')
