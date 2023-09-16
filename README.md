@@ -22,7 +22,7 @@ Check out the source code for now please.
 
 ## IntrepidBot Math
 
-Fully operational **ONLY** in DMs.
+Fully operational now!
 
 Has multiple super advanced calculators.
 
