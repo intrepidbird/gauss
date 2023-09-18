@@ -30,6 +30,8 @@ Has multiple super advanced calculators.
 
 Reserved for `Ctrl Alt Elite` ONLY.
 
+Translated to `Java` and `C++` from `Python` 🥳
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 *All 3 Bots are licensed under the **MIT** License*
 
