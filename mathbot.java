@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        // Your code here
+        // Code here
     }
 
     public static int factorial(int number) {
