@@ -35,6 +35,6 @@ Translated to `Java` and `C++` from `Python` 🥳
 Our GREATEST project yet!
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*All 3 Bots are licensed under the **MIT** License*
+*All 3 Bots are licensed under the **[MIT](https://en.wikipedia.org/wiki/MIT_License)** License*
 
 `intrepidbird{m47h3m471c5+c0mpu73r_5c13nc3=1n7r3p1db07_1337}`
