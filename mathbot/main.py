@@ -11,7 +11,9 @@ import cmath
 import statistics
 import numpy as np
 from asteval import Interpreter
+import wolframalpha
 
+client = wolframalpha.Client('client-id')
 aeval = Interpreter()
 app = Flask('')
 
@@ -29,7 +31,7 @@ def keep_alive():
 intents = Intents.all()
 intents.messages = True
 bot = commands.Bot(command_prefix='!', intents=intents)
-status = cycle(['!help'])
+status = cycle(['!help, !ask'])
 
 @bot.event
 async def on_ready(): change_status.start() 
@@ -202,5 +204,14 @@ async def determinant(ctx, *args: float):
     matrix = np.array(args).reshape((int(np.sqrt(len(args))), -1))
     det = np.linalg.det(matrix)
     await ctx.send(f"The determinant of the matrix is: {det}")
+
+@bot.command(name='ask')
+async def ask(ctx, *, question: str):
+    res = client.query(question)
+    if res['@success'] == 'false':
+        await ctx.send('I could not find an answer to your question.')
+    else:
+        answer = next(res.results).text
+        await ctx.send(f'The answer to your question is: {answer}')
 
 bot.run('token')
