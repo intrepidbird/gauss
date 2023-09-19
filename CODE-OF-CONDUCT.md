@@ -1,4 +1,4 @@
-# Code of Conduct for Maths Discord Bot
+# Code of Conduct for IntrepidBot Math
 
 ## 1. Purpose
 A primary goal of the Maths Discord Bot is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all.
