@@ -1,4 +1,12 @@
 # Security Policy
-Please don't hack us also tell us if there is a vulnerability so we don't get hacked.
+- Please don't hack us or try to hack us
+- Tell us if there's a vulnerability
+- Don't share the vulnerability with anyone besides the `IntrepidBot Math` Administrators.
+- If you find the bot token please don't leak it and tell us to change it
+- Help us the best you can with our discord bot
+
 ## Reporting a Vulnerability
 Contact ```intrepidbird``` on discord
+
+## Rewards
+`Ctrl Alt Elite` gives away cash prizes (or Discord Nitro) for vulnerabilities found.
