@@ -24,13 +24,20 @@ Check out the source code for now please.
 
 ## IntrepidBot Math
 
-Fully operational now!
+The Official Bot of [`IntrepidBird`](https://github.com/intrepidbird)
 
 Has multiple super advanced calculators.
 
+Has **AI** integration in `!ask` (Wolfram Alpha API)
+
+Only bot created by [`IntrepidBird`](https://github.com/intrepidbird) to have `keep alive` function (24/7 online)
+
 Reserved for `Ctrl Alt Elite` ONLY.
 
-Translated to `Java` and `C++` from `Python` 🥳
+Translated to `Java`, `C++`, `Javascript, `C`, and `C#` from `Python` 🥳
+
+<h3 align="left">IntrepidBot Math Languages:</h3>
+<p align="left"> <a href="https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/factorial-translation.c" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/cpp-translation.cpp" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/cs-translation.cs" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/java-translation.java" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/javascript-translation.js" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href=https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/main.pyhttps://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
 Our GREATEST project yet!
 
