@@ -36,6 +36,8 @@
 
 💻 [Licensed under the MIT License](https://en.wikipedia.org/wiki/MIT_License)
 
+💻 [Code of Conduct](https://github.com/intrepidbird/intrepidbot/blob/main/CODE-OF-CONDUCT.md)
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### IntrepidBot
