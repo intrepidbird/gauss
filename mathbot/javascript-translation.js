@@ -76,6 +76,31 @@ client.on('message', msg => {
         const result = math.sin(math.unit(number, 'deg'));
         msg.reply(`The sine of ${number} is: ${result}`);
     }
+
+client.on('message', message => {
+    const args = message.content.slice(prefix.length).trim().split(/ +/g);
+    const command = args.shift().toLowerCase();
+
+    if (command === 'cos') {
+        let number = parseFloat(args[0]);
+        let result = Math.cos(math.unit(number, 'deg'));
+        message.channel.send(`The cosine of ${number} is: ${result}`);
+    }
+
+    // Soon...
+
+    if (command === 'ask') {
+        let question = args.join(' ');
+        // Use a suitable API to get the answer to the question
+        // For example, Wolfram Alpha
+        // let res = await wolfram.query(question);
+        // if (res.success) {
+        //     let answer = res.pods[0].subpods[0].value;
+        //     message.channel.send(`The answer to your question is: ${answer}`);
+        // } else {
+        //     message.channel.send('I could not find an answer to your question.');
+        // }
+    }
 });
 
 client.login('token');
@@ -84,3 +109,4 @@ client.login('token');
 // npm install discord.js mathjs canvas express
 // Please note some functions are not available thx
 
+          
