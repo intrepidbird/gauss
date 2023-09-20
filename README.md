@@ -32,6 +32,10 @@
 
 🎖️ Our GREATEST project yet!
 
+💻 [Licensed under the MIT License](https://en.wikipedia.org/wiki/MIT_License)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### IntrepidBot
 
 Main, multi-use (mainly math) Discord Bot!
