@@ -32,7 +32,7 @@
 
 🎖️ Our GREATEST project yet!
 
-## IntrepidBot
+### IntrepidBot
 
 Main, multi-use (mainly math) Discord Bot!
 
@@ -40,7 +40,7 @@ Has many calculators, can play games, and more!
 
 *🤫 We are working on a secret project right now with IntrepidBot!*
 
-## IntrepidBot CTF
+### IntrepidBot CTF
 
 *In development / progress*
 
