@@ -1,17 +1,17 @@
 # IntrepidBots:
 
-🌐 - [IntrepidBot Math Website](https://sites.google.com/view/intrepidbot-math)
+🌐 - [**IntrepidBot Math Website**](https://sites.google.com/view/intrepidbot-math)
 
 
-💻 - [IntrepidBot Math Source Code (Python)](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/main.py)
+💻 - [**IntrepidBot Math Source Code (Python)**](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/main.py)
 
-💻 - [IntrepidBot Math Source Code (Javascript)](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/javascript-translation.js)
+💻 - [**IntrepidBot Math Source Code (Javascript)**](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/javascript-translation.js)
 
 🌐 - [IntrepidBot Website](https://sites.google.com/view/intrepidbot)
 
 🤖 - [IntrepidBot Invite](https://discord.com/api/oauth2/authorize?client_id=842849935434317915&redirect_uri=https%3A%2F%2Fdiscordapp.com%2Foauth2%2Fauthorize%3F%26client_id%3D842849935434317915%26scope%3Dbot&response_type=code&scope=rpc.activities.write%20messages.read%20applications.commands)
 
-## [IntrepidBot Math](https://github.com/intrepidbird/intrepidbot/tree/main/mathbot)
+### [IntrepidBot Math](https://github.com/intrepidbird/intrepidbot/tree/main/mathbot)
 
 🏆 The Official Bot of [`IntrepidBird`](https://github.com/intrepidbird) & `Ctrl Alt Elite`
 
