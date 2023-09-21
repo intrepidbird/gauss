@@ -12,6 +12,7 @@ import statistics
 import numpy as np
 from asteval import Interpreter
 import wolframalpha
+import cmath
 
 client = wolframalpha.Client('client-id')
 aeval = Interpreter()
@@ -213,5 +214,16 @@ async def ask(ctx, *, question: str):
     else:
         answer = next(res.results).text
         await ctx.send(f'The answer to your question is: {answer}')
+
+@bot.command(name='solve')
+async def solve(ctx, a: float, b: float, c: float):
+    # calculate the discriminant
+    d = (b**2) - (4*a*c)
+
+    # find two solutions
+    sol1 = (-b-cmath.sqrt(d))/(2*a)
+    sol2 = (-b+cmath.sqrt(d))/(2*a)
+
+    await ctx.send("The solutions are {0} and {1}".format(sol1,sol2))
 
 bot.run('token')
