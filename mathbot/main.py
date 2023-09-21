@@ -16,7 +16,7 @@ import cmath
 from sympy import symbols, lambdify
 from sympy.parsing.sympy_parser import parse_expr
 
-client = wolframalpha.Client('client-id')
+client = wolframalpha.Client('id')
 aeval = Interpreter()
 app = Flask('')
 
@@ -74,7 +74,14 @@ async def graph(ctx, *, expression: str):
 @bot.command(name='factorial')
 async def factorial(ctx, number: int):
     result = math.factorial(number)
-    await ctx.send(f"The factorial of {number} is: {result}")
+    if len(str(result)) > 2000:
+        with open('factorial_result.txt', 'w') as f:
+            f.write(f"The factorial of {number} is: {result}")
+        await ctx.send("The result is over 2000 digits. It has been written to 'factorial_result.txt'.")
+        await ctx.send(file=discord.File('factorial_result.txt'))
+        os.remove('factorial_result.txt')  # remove the file after sending it
+    else:
+        await ctx.send(f"The factorial of {number} is: {result}")
 
 @bot.command(name='square')
 async def square(ctx, number: float):
