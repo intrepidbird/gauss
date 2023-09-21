@@ -21,7 +21,7 @@
 
 💻 Has multiple super advanced calculators.
 
-🤖 Has **AI** integration in `!ask` (Wolfram Alpha API)
+🤖 Has **AI** integration in [`!ask`](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/math-ai.py) (Wolfram Alpha API)
 
 👨‍💻 Only bot created by [`IntrepidBird`](https://github.com/intrepidbird) to have `keep alive` function (24/7 online)
 
