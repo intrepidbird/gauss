@@ -105,7 +105,6 @@ client.on('message', message => {
 
 client.login('token');
 
-// Only HALF the code btw
 // npm install discord.js mathjs canvas express
 // Please note some functions are not available thx
 
