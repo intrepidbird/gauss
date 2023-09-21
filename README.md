@@ -13,7 +13,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### [IntrepidBot Math](https://github.com/intrepidbird/intrepidbot/tree/main/mathbot) [🔗](https://github.com/intrepidbird/intrepidbot#intrepidbot-math)
+### [IntrepidBot Math](https://github.com/intrepidbird/intrepidbot/tree/main/mathbot) [🔗](https://github.com/intrepidbird/intrepidbot#intrepidbot-math-)
 
 🏆 The Official Bot of [`IntrepidBird`](https://github.com/intrepidbird) & `Ctrl Alt Elite`
 
