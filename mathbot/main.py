@@ -13,6 +13,8 @@ import numpy as np
 from asteval import Interpreter
 import wolframalpha
 import cmath
+from sympy import symbols, lambdify
+from sympy.parsing.sympy_parser import parse_expr
 
 client = wolframalpha.Client('client-id')
 aeval = Interpreter()
@@ -58,9 +60,14 @@ async def calculate(ctx, expr):
 
 @bot.command(name='graph')
 async def graph(ctx, *, expression: str):
-    x = np.linspace(-10, 10, 1000)
-    y = eval(expression)
-    plt.plot(x, y)
+    x = symbols('x')
+    y_expr = parse_expr(expression)
+    y_func = lambdify(x, y_expr, "numpy")
+
+    x_vals = np.linspace(-10, 10, 1000)
+    y_vals = y_func(x_vals)
+
+    plt.plot(x_vals, y_vals)
     plt.savefig('graph.png')
     await ctx.send(file=discord.File('graph.png'))
 
