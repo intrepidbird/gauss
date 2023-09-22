@@ -1,0 +1,7 @@
+discord.py
+matplotlib
+numpy
+flask
+asteval
+wolframalpha
+sympy
