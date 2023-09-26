@@ -38,7 +38,7 @@
 
 💻 [Code of Conduct](https://github.com/intrepidbird/intrepidbot/blob/main/CODE-OF-CONDUCT.md)
 
-`intrepidbird{m47h3m471c5+c0mpu73r_5c13nc3=1n7r3p1db07_1337}`
+Thanks for checking out **IntrepidBot Math**! Here's a CTF flag: `intrepidbird{m47h3m471c5+c0mpu73r_5c13nc3=1n7r3p1db07_1337}`
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
