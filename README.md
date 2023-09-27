@@ -13,9 +13,9 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### [IntrepidBot Math](https://github.com/intrepidbird/intrepidbot/tree/main/mathbot) [🔗](https://github.com/intrepidbird/intrepidbot#intrepidbot-math-)
+## [IntrepidBot Math](https://github.com/intrepidbird/intrepidbot/tree/main/mathbot) [🔗](https://github.com/intrepidbird/intrepidbot#intrepidbot-math-)
 
-🏆 The Official Bot of [`IntrepidBird`](https://github.com/intrepidbird) & `Ctrl Alt Elite`
+🏆 The Official Bot of [`IntrepidBird`](https://github.com/intrepidbird) & [`IntrepidHackers`](https://sites.google.com/view/intrepidhackers)
 
 🥇 Main Bot in this repository
 
@@ -25,7 +25,7 @@
 
 👨‍💻 Only bot created by [`IntrepidBird`](https://github.com/intrepidbird) to have `keep alive` function (24/7 online)
 
-💻 Reserved for `Ctrl Alt Elite` ONLY.
+💻 Reserved for `IntrepidHackers` ONLY.
 
 💻 Translated to `Java`, `C++`, `Javascript`, `C`, and `C#` from `Python` 🥳
 
@@ -39,6 +39,10 @@
 💻 [Code of Conduct](https://github.com/intrepidbird/intrepidbot/blob/main/CODE-OF-CONDUCT.md)
 
 Thanks for checking out **IntrepidBot Math**! Here's a CTF flag: `intrepidbird{m47h3m471c5+c0mpu73r_5c13nc3=1n7r3p1db07_1337}`
+
+### How to use IntrepidBot Math
+
+Either join the `IntrepidHackers` Discord Server OR copy [this code](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/main.py) and run `python3 main.py` (Changing the bot token and Wolfram Alpha ID) to get your brand new Mathematical Discord Bot!
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
