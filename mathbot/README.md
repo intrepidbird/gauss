@@ -15,4 +15,4 @@ Thanks for checking out **IntrepidBot Math** in more detail! Here's a CTF flag: 
 
 Either join the `IntrepidHackers` [Discord Server](https://discord.gg/vsczWxXN) OR copy [this code](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/main.py) and run `python3 main.py` (Changing the bot token and Wolfram Alpha ID) to get your brand new Mathematical Discord Bot!
 
-Make sure you fix the requirements in [requirements.txt](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/requirements.txt)
+Make sure you fit the requirements in [requirements.txt](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/requirements.txt)
