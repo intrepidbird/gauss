@@ -222,12 +222,16 @@ async def determinant(ctx, *args: float):
 
 @bot.command(name='ask')
 async def ask(ctx, *, question: str):
-    res = client.query(question)
-    if res['@success'] == 'false':
-        await ctx.send('I could not find an answer to your question.')
-    else:
-        answer = next(res.results).text
-        await ctx.send(f'The answer to your question is: {answer}')
+    try:
+        res = client.query(question)
+        if res['@success'] == 'false':
+            await ctx.send('I could not find an answer to your question.')
+        else:
+            answer = next(res.results).text
+            await ctx.send(f'The answer to your question is: {answer}')
+    except Exception as e:
+        await ctx.send(f'An error occurred {str(e)}')
+
 
 @bot.command(name='solve')
 async def solve(ctx, a: float, b: float, c: float):
@@ -239,5 +243,14 @@ async def solve(ctx, a: float, b: float, c: float):
     sol2 = (-b+cmath.sqrt(d))/(2*a)
 
     await ctx.send("The solutions are {0} and {1}".format(sol1,sol2))
+
+@bot.command(name='eigen')
+async def eigen(ctx, *args: float):
+    matrix = np.array(args).reshape((int(np.sqrt(len(args))), -1))
+    try:
+        eigenvalues, eigenvectors = np.linalg.eig(matrix)
+        await ctx.send(f"The eigenvalues of the matrix are: {eigenvalues}, and the corresponding eigenvectors are: {eigenvectors}")
+    except np.linalg.LinAlgError:
+        await ctx.send("The eigenvalues and eigenvectors could not be calculated.")
 
 bot.run('token')
