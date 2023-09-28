@@ -9,4 +9,5 @@
 Contact ```intrepidbird``` on discord
 
 ## Rewards
-`Ctrl Alt Elite` gives away cash prizes (or Discord Nitro) for vulnerabilities found.
+`IntrepidHackers` gives away cash prizes (or Discord Nitro) for vulnerabilities found.
+Some vulnerabilities will receive special wallpapers and badges 😃
