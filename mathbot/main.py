@@ -15,8 +15,9 @@ import wolframalpha
 import cmath
 from sympy import symbols, lambdify
 from sympy.parsing.sympy_parser import parse_expr
+import openai
 
-client = wolframalpha.Client('id')
+client = wolframalpha.Client('wolfram_id')
 aeval = Interpreter()
 app = Flask('')
 
@@ -34,7 +35,7 @@ def keep_alive():
 intents = Intents.all()
 intents.messages = True
 bot = commands.Bot(command_prefix='!', intents=intents)
-status = cycle(['!help, !ask'])
+status = cycle(['!help, !ask, !ai'])
 
 @bot.event
 async def on_ready(): change_status.start() 
@@ -252,5 +253,15 @@ async def eigen(ctx, *args: float):
         await ctx.send(f"The eigenvalues of the matrix are: {eigenvalues}, and the corresponding eigenvectors are: {eigenvectors}")
     except np.linalg.LinAlgError:
         await ctx.send("The eigenvalues and eigenvectors could not be calculated.")
+
+@bot.command()
+async def ai(ctx, *, prompt):
+    openai.api_key = 'openai_key'
+    response = openai.Completion.create(engine="text-davinci-002", prompt=prompt, max_tokens=100)
+    await ctx.send(response.choices[0].text.strip())
+
+@bot.command(name='three_d')
+async def three_d(ctx):
+    await ctx.send("https://www.desmos.com/3d")
 
 bot.run('token')
