@@ -16,6 +16,8 @@
 
 🤖 Has **AI** integration in [`!ask`](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/math-ai.py) (Wolfram Alpha API)
 
+🤖 Has **AI** integration in `!ai` (OpenAI API)
+
 👨‍💻 Only bot created by [`IntrepidHackers`](https://github.com/intrepidhackers) to have `keep alive` function (24/7 online)
 
 💻 Publically available now for testing purposes! Join the discord in my profile for more details such as `Client ID`.
