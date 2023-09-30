@@ -1,4 +1,4 @@
-# IntrepidBots:
+# IntrepidBot Mathematics:
 
 🌐 - [**IntrepidBot Math Website**](https://sites.google.com/view/intrepidbot-math)
 
@@ -8,7 +8,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## [IntrepidBot Math](https://github.com/intrepidbird/intrepidbot/tree/main/mathbot) [🔗](https://github.com/intrepidbird/intrepidbot#intrepidbot-math-)
+## [IntrepidBot Math Details](https://github.com/intrepidbird/intrepidbot/tree/main/mathbot)
 
 🏆 The Official Bot of [`IntrepidBird`](https://github.com/intrepidbird) & [`IntrepidHackers`](https://sites.google.com/view/intrepidhackers)
 
