@@ -1,5 +1,8 @@
 # IntrepidBot Mathematics:
 
+![image](https://github.com/intrepidbird/intrepidbot/assets/140008493/b13a3ab0-d9ac-446e-8515-47ab19fb1994)
+
+
 🌐 - [**IntrepidBot Math Website**](https://sites.google.com/view/intrepidbot-math)
 
 💻 - [**IntrepidBot Math Source Code (Python)**](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/main.py)
