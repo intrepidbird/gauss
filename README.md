@@ -1,6 +1,6 @@
 # IntrepidBot Mathematics:
 
-![image](https://github.com/intrepidbird/intrepidbot/assets/140008493/b13a3ab0-d9ac-446e-8515-47ab19fb1994)
+![image](https://github.com/intrepidbird/intrepidbot/assets/140008493/6d5d53c7-7165-434c-9a4c-4a8b27066cce)
 
 
 🌐 - [**IntrepidBot Math Website**](https://sites.google.com/view/intrepidbot-math)
@@ -43,5 +43,3 @@ Thanks for checking out **IntrepidBot Math**! Here's a CTF flag: `intrepidbird{m
 ### How to use IntrepidBot Math
 
 Either join the `IntrepidHackers` Discord Server OR copy [this code](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/main.py) and run `python3 main.py` (Changing the bot token and Wolfram Alpha ID) to use IntrepidBot Maths.
-
-![image](https://github.com/intrepidbird/intrepidbot/assets/140008493/c8101e37-4936-4a8c-9a4a-9dbd2dba97a1)
