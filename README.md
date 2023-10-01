@@ -2,6 +2,7 @@
 
 ![image](https://github.com/intrepidbird/intrepidbot/assets/140008493/6d5d53c7-7165-434c-9a4c-4a8b27066cce)
 
+⭐ **Remember to star our Repository!**
 
 🌐 - [**IntrepidBot Math Website**](https://sites.google.com/view/intrepidbot-math)
 
