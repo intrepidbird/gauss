@@ -13,6 +13,6 @@ Arrange the text of the footer such that it can be in the center of the screen
 <br>
 
 # Solution
-Change the css to ```text-align; center;``` to get the text in the center
+Change the css to ```text-align: center;``` to get the text in the center
 
 ![Alt text](image-1.png)
