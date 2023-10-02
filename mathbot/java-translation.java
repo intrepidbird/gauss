@@ -8,7 +8,60 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        // Code here
+        // Example usage of some of the mathematical functions
+        int number = 5;
+        double base = 2.0;
+        double exponent = 3.0;
+        double side1 = 3.0;
+        double side2 = 4.0;
+
+        boolean isPrimeResult = isPrime(number);
+        double absResult = abs(-10.5);
+        double powResult = pow(base, exponent);
+        double modResult = mod(10.0, 3.0);
+        double hypotResult = hypot(side1, side2);
+
+        System.out.println("isPrime(" + number + ") = " + isPrimeResult);
+        System.out.println("abs(-10.5) = " + absResult);
+        System.out.println(base + "^" + exponent + " = " + powResult);
+        System.out.println("10.0 % 3.0 = " + modResult);
+        System.out.println("Hypotenuse of a right triangle with sides " + side1 + " and " + side2 + " = " + hypotResult);
+    }
+
+    // ... The rest of your mathematical functions (isPrime, abs, pow, mod, hypot) go here ...
+
+    public static boolean isPrime(int number) {
+        if (number <= 1) {
+            return false;
+        } else if (number == 2) {
+            return true;
+        } else {
+            for (int i = 2; i < number; i++) {
+                if (number % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+
+    public static double abs(double number) {
+        return Math.abs(number);
+    }
+
+    public static double pow(double base, double exponent) {
+        return Math.pow(base, exponent);
+    }
+
+    public static double mod(double number1, double number2) {
+        return number1 % number2;
+    }
+
+    public static double hypot(double side1, double side2) {
+        return Math.hypot(side1, side2);
+    }
+}
+
     }
 
     public static int factorial(int number) {
