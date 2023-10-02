@@ -7,7 +7,7 @@ dependencies:
   - matplotlib
   - wolframalpha
   - discord
-  - scipy
+  - sympy
   - openai
   - pip:
     - git+https://github.com/intrepidbird/intrepidbot.git
