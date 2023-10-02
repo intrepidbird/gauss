@@ -101,7 +101,7 @@ Check out our twin project, [`Psyduck AI`](https://github.com/intrepidbird/psydu
 
 # Future Releases
 
-IntrepidBot will be available in `Javascript` in the future!
+IntrepidBot will be available in [`Javascript`](https://github.com/intrepidbird/intrepidbot/tree/main/javascript) in the future!
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Thanks for checking out **IntrepidBot Math**! 
