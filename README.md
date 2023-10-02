@@ -102,4 +102,4 @@ Check out our twin project, [`Psyduck AI`](https://github.com/intrepidbird/psydu
 Thanks for checking out **IntrepidBot Math**! 
 Here's a CTF flag: `intrepidbird{m47h3m471c5+c0mpu73r_5c13nc3=1n7r3p1db07_1337}`
 
-
+For the current event, look for a pastebin.
