@@ -1,12 +1,10 @@
 # IntrepidBot Mathematics: A Discord Bot for Mathematical Calculations 
 
-![image](https://github.com/intrepidbird/intrepidbot/assets/140008493/6d5d53c7-7165-434c-9a4c-4a8b27066cce)
+![image](https://github.com/intrepidbird/intrepidbot/assets/140008493/7ca66ad9-1da6-4764-99e4-ef0b09cd542c)
 
+🤖 IntrepidBot Math is a powerful math bot developed by [`IntrepidBird`](https://github.com/intrepidbird) & [`IntrepidHackers`](https://sites.google.com/view/intrepidhackers).
 
-
-IntrepidBot Math is a powerful math bot developed by [`IntrepidBird`](https://github.com/intrepidbird) & [`IntrepidHackers`](https://sites.google.com/view/intrepidhackers).
-
-It offers a wide range of advanced calculators, including matrix, eigenvalues, graphing, scientific, and factorial calculators. This bot also integrates with AI services such as Wolfram Alpha and OpenAI for enhanced functionality.
+💻 It offers a wide range of advanced calculators, including matrix, eigenvalues, graphing, scientific, and factorial calculators. This bot also integrates with AI services such as Wolfram Alpha and OpenAI for enhanced functionality.
 
 ⭐ **Remember to star our Repository!**
 
@@ -50,7 +48,7 @@ It offers a wide range of advanced calculators, including matrix, eigenvalues, g
 
 ## Getting Started
 
-To use IntrepidBot Math, you can either join the  `IntrepidHackers` Discord Server or follow these steps:
+👨‍💻 To use IntrepidBot Math, you can either join the  `IntrepidHackers` Discord Server or follow these steps:
 
 1. Clone the repository.
 2. Run `python3 main.py` (Don't forget to change the bot token and Wolfram Alpha ID to use IntrepidBot Math).
@@ -58,7 +56,7 @@ To use IntrepidBot Math, you can either join the  `IntrepidHackers` Discord Serv
 
 ## How to Use the Bot
 
-IntrepidBot offers a variety of mathematical commands. Here are some examples:
+💻 IntrepidBot offers a variety of mathematical commands. Here are some examples:
 
 * `!calculate [expression]`: Evaluate mathematical expressions.
 * `!graph [expression]`: Plot mathematical functions.
@@ -72,7 +70,7 @@ Refer to the bot's help command (`!help`) for a full list of available commands 
 
 ## How to Contribute
 
-We welcome contributions to IntrepidBot Math! If you'd like to contribute, please follow these steps:
+🥳 We welcome contributions to IntrepidBot Math! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Clone the forked repository to your local machine.
@@ -98,9 +96,10 @@ Please review our [Code of Conduct](https://github.com/intrepidbird/intrepidbot/
 
 ## Twin Project
 
-Check out our twin project, `Psyduck Maths AI`.
+Check out our twin project, [`Psyduck AI`](https://github.com/intrepidbird/psyduck).
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Thanks for checking out **IntrepidBot Math**! Here's a CTF flag: `intrepidbird{m47h3m471c5+c0mpu73r_5c13nc3=1n7r3p1db07_1337}`
+Thanks for checking out **IntrepidBot Math**! 
+Here's a CTF flag: `intrepidbird{m47h3m471c5+c0mpu73r_5c13nc3=1n7r3p1db07_1337}`
 
 
