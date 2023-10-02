@@ -254,7 +254,7 @@ async def eigen(ctx, *args: float):
     except np.linalg.LinAlgError:
         await ctx.send("The eigenvalues and eigenvectors could not be calculated.")
 
-@bot.command()
+@bot.command(name='ai')
 async def ai(ctx, *, prompt):
     openai.api_key = 'openai_key'
     response = openai.Completion.create(engine="text-davinci-002", prompt=prompt, max_tokens=100)
