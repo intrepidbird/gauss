@@ -14,7 +14,7 @@
 
 ## IntrepidBot Math Details
 
-[Math-Bot folder](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/openai.py)
+[Math-Bot folder](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot)
 
 🏆 The Official Bot of [`IntrepidBird`](https://github.com/intrepidbird) & [`IntrepidHackers`](https://sites.google.com/view/intrepidhackers)
 
