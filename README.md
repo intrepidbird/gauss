@@ -25,6 +25,7 @@
 - [License](#license)
 - [Credits](#credits)
 - [Twin Project](#twin-project)
+- [Future Releases](#future-releases)
 
 
 
@@ -97,6 +98,10 @@ Please review our [Code of Conduct](https://github.com/intrepidbird/intrepidbot/
 ## Twin Project
 
 Check out our twin project, [`Psyduck AI`](https://github.com/intrepidbird/psyduck).
+
+# Future Releases
+
+IntrepidBot will be available in `Javascript` in the future!
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Thanks for checking out **IntrepidBot Math**! 
