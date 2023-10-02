@@ -12,15 +12,17 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## [IntrepidBot Math Details](https://github.com/intrepidbird/intrepidbot/tree/main/mathbot)
+## IntrepidBot Math Details
+
+[Math-Bot folder](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/openai.py)
 
 🏆 The Official Bot of [`IntrepidBird`](https://github.com/intrepidbird) & [`IntrepidHackers`](https://sites.google.com/view/intrepidhackers)
 
 💻 Has multiple super advanced calculators, such as matrix, eigenvalues, graphing, scientific, and factorial calculators.
 
-🤖 Has **AI** integration in [`!ask`](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/math-ai.py) (Wolfram Alpha API)
+🤖 Has **AI** integration in [`!ask`](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/wolfram.py) (Wolfram Alpha API)
 
-🤖 Has **AI** integration in `!ai` (OpenAI API)
+🤖 Has **AI** integration in [`!ai`](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/openai.py) (OpenAI API)
 
 👨‍💻 Only bot created by [`IntrepidHackers`](https://github.com/intrepidhackers) to have `keep alive` function (24/7 online)
 
