@@ -1,0 +1,13 @@
+name: environment-thing
+
+dependencies:
+  - python=3.9
+  - numpy
+  - math
+  - matplotlib
+  - wolframalpha
+  - discord
+  - scipy
+  - openai
+  - pip:
+    - git+https://github.com/intrepidbird/intrepidbot.git
