@@ -5,3 +5,4 @@ flask
 asteval
 wolframalpha
 sympy
+openai
