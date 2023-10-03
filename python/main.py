@@ -96,7 +96,7 @@ async def factor(ctx, number: int):
         if number % i == 0:
             factors.add(int(i))
             factors.add(int(number/i))
-    await ctx.send(f"The factors of {number} are: {sorted(list(factors))}")
+    await ctx.send(f"The factors of {number} are: {list(factors)}")
 
 @bot.command(name='sqrt')
 async def sqrt(ctx, number: float):
