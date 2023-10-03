@@ -91,11 +91,12 @@ async def square(ctx, number: float):
 
 @bot.command(name='factor')
 async def factor(ctx, number: int):
-    factors = []
-    for i in range(1, number + 1):
+    factors = set()
+    for i in range(1, int(math.sqrt(number)) + 1):
         if number % i == 0:
-            factors.append(i)
-    await ctx.send(f"The factors of {number} are: {factors}")
+            factors.add(int(i))
+            factors.add(int(number/i))
+    await ctx.send(f"The factors of {number} are: {sorted(list(factors))}")
 
 @bot.command(name='sqrt')
 async def sqrt(ctx, number: float):
