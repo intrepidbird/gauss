@@ -100,7 +100,7 @@ Please review our [Code of Conduct](https://github.com/intrepidbird/intrepidbot/
 
 Check out our twin project, [`Psyduck AI`](https://github.com/intrepidbird/psyduck).
 
-# Future Releases
+## Future Releases
 
 IntrepidBot will be available in [`Javascript`](https://github.com/intrepidbird/intrepidbot/tree/main/javascript) in the future!
 
