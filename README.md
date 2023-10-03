@@ -53,6 +53,7 @@
 
 1. Clone the repository.
 2. Run `python3 main.py` (Don't forget to change the bot token and Wolfram Alpha ID to use IntrepidBot Math).
+3. Invite the bot using `https://discord.com/oauth2/authorize?client_id={applicationid}&scope=bot%20applications.commands&permissions=105227086912`
 
 
 ## How to Use the Bot
