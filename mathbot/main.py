@@ -91,11 +91,12 @@ async def square(ctx, number: float):
 
 @bot.command(name='factor')
 async def factor(ctx, number: int):
-    factors = []
-    for i in range(1, number + 1):
+    factors = set()
+    for i in range(1, int(math.sqrt(number)) + 1):
         if number % i == 0:
-            factors.append(i)
-    await ctx.send(f"The factors of {number} are: {factors}")
+            factors.add(int(i))
+            factors.add(int(number/i))
+    await ctx.send(f"The factors of {number} are: {list(factors)}")
 
 @bot.command(name='sqrt')
 async def sqrt(ctx, number: float):
@@ -254,7 +255,7 @@ async def eigen(ctx, *args: float):
     except np.linalg.LinAlgError:
         await ctx.send("The eigenvalues and eigenvectors could not be calculated.")
 
-@bot.command(name='ai')
+@bot.command()
 async def ai(ctx, *, prompt):
     openai.api_key = 'openai_key'
     response = openai.Completion.create(engine="text-davinci-002", prompt=prompt, max_tokens=100)
@@ -264,4 +265,19 @@ async def ai(ctx, *, prompt):
 async def three_d(ctx):
     await ctx.send("https://www.desmos.com/3d")
 
+@bot.command(name='permutation')
+async def permutation(ctx, n:int, r:int):
+    ans = math.factorial(n)
+    ans = ans/math.factorial(n-r)
+    await ctx.send(f"The value of P({n},{r}) is: {ans}")
+
+@bot.command(name='combination')
+async def combination(ctx, n:int, r:int):
+    ans = math.factorial(n)
+    ans = ans/(math.factorial(n-r) * math.factorial(r))
+    await ctx.send(f"The value of C({n},{r}) is: {ans}")
+    
 bot.run('token')
+
+# with more people this is just a redundancy
+
