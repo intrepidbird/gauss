@@ -268,3 +268,15 @@ async def three_d(ctx):
 bot.run('token')
 
 # with more people this is just a redundancy
+
+@bot.command(name='permutation')
+async def permutation(ctx, n:int, r:int):
+    ans = math.factorial(n)
+    ans = ans/math.factorial(n-r)
+    await ctx.send(f"The value of P({n},{r}) is: {ans}")
+
+@bot.command(name='combination')
+async def combination(ctx, n:int, r:int):
+    ans = math.factorial(n)
+    ans = ans/(math.factorial(n-r) * math.factorial(r))
+    await ctx.send(f"The value of C({n},{r}) is: {ans}")
