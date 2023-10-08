@@ -6,6 +6,8 @@
 
 💻 It offers a wide range of advanced calculators, including matrix, eigenvalues, graphing, scientific, and factorial calculators. This bot also integrates with AI services such as Wolfram Alpha and OpenAI for enhanced functionality.
 
+🤖 Some calculators are available [here](intrepidbird.github.io/intrepidbot/), if you don't have Discord.
+
 ⭐ **Remember to star our Repository!**
 
 🌐 - [**IntrepidBot Math Website**](https://sites.google.com/view/intrepidbot-math)
@@ -104,8 +106,10 @@ Check out our twin project, [`Psyduck AI`](https://github.com/intrepidbird/psydu
 
 IntrepidBot will be available in [`Javascript`](https://github.com/intrepidbird/intrepidbot/tree/main/javascript) in the future!
 
+## NEW GitHub Site/Page!
+
+🌐 - intrepidbird.github.io/intrepidbot/
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Thanks for checking out **IntrepidBot Math**! 
 Here's a CTF flag: `intrepidbird{m47h3m471c5+c0mpu73r_5c13nc3=1n7r3p1db07_1337}`
-
-GitHub Site coming soon...
