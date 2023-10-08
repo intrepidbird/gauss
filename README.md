@@ -6,7 +6,7 @@
 
 💻 It offers a wide range of advanced calculators, including matrix, eigenvalues, graphing, scientific, and factorial calculators. This bot also integrates with AI services such as Wolfram Alpha and OpenAI for enhanced functionality.
 
-🤖 Some calculators are available [here](intrepidbird.github.io/intrepidbot/), if you don't have Discord.
+🤖 Some calculators are available [here](https://intrepidbird.github.io/intrepidbot/), if you don't have Discord.
 
 ⭐ **Remember to star our Repository!**
 
