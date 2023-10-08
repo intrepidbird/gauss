@@ -8,22 +8,26 @@
             color: skyblue;
             font-family: Arial, sans-serif;
         }
-        #result {
+        #resultFactorial {
             margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <h1>Factorial Calculator</h1>
-    <input id="number" type="number" placeholder="Enter a number" />
-    <button onclick="calculate()">Calculate</button>
-    <div id="result"></div>
+    <input id="numberFactorial" type="number" placeholder="Enter a number for factorial" />
+    <button onclick="calculateFactorial()">Calculate Factorial</button>
+    <div id="resultFactorial"></div>
 
     <script>
-        function calculate() {
-            var number = document.getElementById('number').value;
+        function calculateFactorial() {
+            var number = document.getElementById('numberFactorial').value;
+            if (number < 0 || number % 1 != 0 || number > 170) {
+                document.getElementById('resultFactorial').innerHTML = 'Error: Input must be a non-negative integer less than or equal to 170';
+                return;
+            }
             var result = factorial(number);
-            document.getElementById('result').innerHTML = 'Result: ' + result;
+            document.getElementById('resultFactorial').innerHTML = 'Result: ' + result;
         }
 
         function factorial(n) {
@@ -35,3 +39,4 @@
     </script>
 </body>
 </html>
+
