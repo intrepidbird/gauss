@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IntrepidCalculator</title>
+    <style>
+        body {
+            background-color: grey;
+            color: skyblue;
+            font-family: Arial, sans-serif;
+        }
+        #result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Factorial Calculator</h1>
+    <input id="number" type="number" placeholder="Enter a number" />
+    <button onclick="calculate()">Calculate</button>
+    <div id="result"></div>
+
+    <script>
+        function calculate() {
+            var number = document.getElementById('number').value;
+            var result = factorial(number);
+            document.getElementById('result').innerHTML = 'Result: ' + result;
+        }
+
+        function factorial(n) {
+            let result = 1;
+            for (let i = 2; i <= n; i++)
+                result *= i;
+            return result;
+        }
+    </script>
+</body>
+</html>
