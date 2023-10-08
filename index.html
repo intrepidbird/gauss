@@ -8,16 +8,23 @@
             color: skyblue;
             font-family: Arial, sans-serif;
         }
-        #resultFactorial {
+        #resultFactorial, #resultFibonacci {
             margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Factorial Calculator</h1>
+    <h1>Intrepid Calculator</h1>
+
+    <h2>Factorial Calculator</h2>
     <input id="numberFactorial" type="number" placeholder="Enter a number for factorial" />
     <button onclick="calculateFactorial()">Calculate Factorial</button>
     <div id="resultFactorial"></div>
+
+    <h2>Fibonacci Calculator</h2>
+    <input id="numberFibonacci" type="number" placeholder="Enter a number for Fibonacci" />
+    <button onclick="calculateFibonacci()">Calculate Fibonacci</button>
+    <div id="resultFibonacci"></div>
 
     <script>
         function calculateFactorial() {
@@ -36,7 +43,34 @@
                 result *= i;
             return result;
         }
+
+        function calculateFibonacci() {
+            var number = document.getElementById('numberFibonacci').value;
+            if (number < 0 || number % 1 != 0) {
+                document.getElementById('resultFibonacci').innerHTML = 'Error: Input must be a non-negative integer';
+                return;
+            }
+            var result = fibonacci(number);
+            document.getElementById('resultFibonacci').innerHTML = 'Result: ' + result;
+        }
+
+        function fibonacci(n) {
+            if (n <= 0) return 0;
+            if (n == 1) return 1;
+
+            let a = 0;
+            let b = 1;
+
+            for (let i = 2; i <= n; i++) {
+                let c = a + b;
+                a = b;
+                b = c;
+            }
+
+            return b;
+        }
     </script>
 </body>
 </html>
+
 
