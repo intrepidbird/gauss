@@ -29,7 +29,9 @@
 - [Twin Project](#twin-project)
 - [Future Releases](#future-releases)
 
-![image](https://github.com/intrepidbird/intrepidbot/assets/140008493/ed159157-3340-422d-8906-1aa9c0dee3ac)
+| Image | Description |
+|:-----:|:-----------:|
+| ![Hacktoberfest](https://github.com/intrepidbird/intrepidbot/assets/140008493/07a005bf-193d-48d0-a49c-907d167ab48a) | Hacktoberfest Badge |
 
 ## Features
 
