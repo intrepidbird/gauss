@@ -29,7 +29,7 @@
 - [Twin Project](#twin-project)
 - [Future Releases](#future-releases)
 
-
+![image](https://github.com/intrepidbird/intrepidbot/assets/140008493/ed159157-3340-422d-8906-1aa9c0dee3ac)
 
 ## Features
 
@@ -105,10 +105,6 @@ Check out our twin project, [`Psyduck AI`](https://github.com/intrepidbird/psydu
 ## Future Releases
 
 IntrepidBot will be available in [`Javascript`](https://github.com/intrepidbird/intrepidbot/tree/main/javascript) in the future!
-
-## NEW GitHub Site/Page!
-
-🌐 - intrepidbird.github.io/intrepidbot/
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Thanks for checking out **IntrepidBot Math**! 
