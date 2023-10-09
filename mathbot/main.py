@@ -279,5 +279,3 @@ async def combination(ctx, n:int, r:int):
     
 bot.run('token')
 
-# with more people this is just a redundancy
-
