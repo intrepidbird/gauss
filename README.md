@@ -1,4 +1,5 @@
-# IntrepidBot Mathematics: A Discord Bot for Mathematical Calculations 
+# IntrepidBot Mathematics
+## A Discord Bot for Mathematical Calculations 
 
 ![image](https://github.com/intrepidbird/intrepidbot/assets/140008493/7ca66ad9-1da6-4764-99e4-ef0b09cd542c)
 
