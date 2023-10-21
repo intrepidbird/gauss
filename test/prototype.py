@@ -124,9 +124,7 @@ async def hangman(ctx):
         guessed_letters.append(guess.content.lower())
 
         if guess.content.lower() in word:
-            for i, letter in enumerate(word):
-                if letter == guess.content.lower():
-                    word_display[i] = letter
+            word_display = [x if x == guess.content.lower() else y for x, y in zip(word, word_display)]
             await ctx.send(f"Correct! Here's your word: {' '.join(word_display)}")
         else:
             attempts_remaining -= 1
