@@ -30,10 +30,6 @@
 - [Twin Project](#twin-project)
 - [Future Releases](#future-releases)
 
-| Image | Description |
-|:-----:|:-----------:|
-| ![Hacktoberfest](https://github.com/intrepidbird/intrepidbot/assets/140008493/07a005bf-193d-48d0-a49c-907d167ab48a) | Hacktoberfest Badge |
-
 ## Features
 
 💻 Multiple advanced calculators
