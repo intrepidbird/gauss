@@ -1,9 +1,9 @@
-# IntrepidBot Mathematics
+# Gauss Mathematics
 ## A Discord Bot for Mathematical Calculations 
 
 ![image](https://github.com/intrepidbird/intrepidbot/assets/140008493/7ca66ad9-1da6-4764-99e4-ef0b09cd542c)
 
-🤖 IntrepidBot Math is a powerful math bot developed by [`IntrepidBird`](https://github.com/intrepidbird) & [`IntrepidHackers`](https://sites.google.com/view/intrepidhackers).
+🤖 Gauss is a powerful math bot developed by [`IntrepidBird`](https://github.com/intrepidbird) & [`IntrepidHackers`](https://sites.google.com/view/intrepidhackers).
 
 💻 It offers a wide range of advanced calculators, including matrix, eigenvalues, graphing, scientific, and factorial calculators. This bot also integrates with AI services such as Wolfram Alpha and OpenAI for enhanced functionality.
 
@@ -11,11 +11,11 @@
 
 ⭐ **Remember to star our Repository!**
 
-🌐 - [**IntrepidBot Math Website**](https://sites.google.com/view/intrepidbot-math)
+🌐 - [**Gauss Website**](https://sites.google.com/view/intrepidbot-math)
 
-💻 - [**IntrepidBot Math Source Code (Python)**](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/main.py)
+💻 - [**Gauss Source Code (Python)**](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/main.py)
 
-💻 - [**IntrepidBot Math Source Code (Javascript)**](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/javascript-translation.js)
+💻 - [**Gauss Source Code (Javascript)**](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/javascript-translation.js)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Table of Contents
@@ -50,10 +50,10 @@
 
 ## Getting Started
 
-👨‍💻 To use IntrepidBot Math, you can either join the  `IntrepidHackers` Discord Server or follow these steps:
+👨‍💻 To use Gauss, you can either join the  `IntrepidHackers` Discord Server or follow these steps:
 
 1. Clone the repository.
-2. Run `python3 main.py` (Don't forget to change the bot token and Wolfram Alpha ID to use IntrepidBot Math).
+2. Run `python3 main.py` (Don't forget to change the bot token and Wolfram Alpha ID to use Gauss).
 3. Invite the bot using `https://discord.com/oauth2/authorize?client_id={applicationid}&scope=bot%20applications.commands&permissions=105227086912`
 
 
@@ -73,7 +73,7 @@ Refer to the bot's help command (`!help`) for a full list of available commands 
 
 ## How to Contribute
 
-🥳 We welcome contributions to IntrepidBot Math! If you'd like to contribute, please follow these steps:
+🥳 We welcome contributions to Gauss! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Clone the forked repository to your local machine.
@@ -87,7 +87,7 @@ Please review our [Code of Conduct](https://github.com/intrepidbird/intrepidbot/
 
 ## License
 
-* IntrepidBot Math is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) which allows other developers to use, modify, and distribute the code.
+* Gauss is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) which allows other developers to use, modify, and distribute the code.
 * Please refer to the [LICENSE](https://github.com/intrepidbird/intrepidbot/blob/main/LICENSE) file for more details on permissions and limitations.
 
 ## Credits
@@ -106,5 +106,5 @@ Check out our twin project, [`Psyduck AI`](https://github.com/intrepidbird/psydu
 IntrepidBot will be available in [`Javascript`](https://github.com/intrepidbird/intrepidbot/tree/main/javascript) in the future!
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Thanks for checking out **IntrepidBot Math**! 
+Thanks for checking out **Gauss**! 
 Here's a CTF flag: `intrepidbird{m47h3m471c5+c0mpu73r_5c13nc3=1n7r3p1db07_1337}`
