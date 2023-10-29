@@ -107,4 +107,4 @@ IntrepidBot will be available in [`Javascript`](https://github.com/intrepidbird/
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Thanks for checking out **Gauss**! 
-Here's a CTF flag: `intrepidbird{m47h3m471c5+c0mpu73r_5c13nc3=1n7r3p1db07_1337}`
+Here's a CTF flag: `intrepidbird{g4u5s_i5_7h3_g0A7_1337}`
