@@ -1,75 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>IntrepidCalculator</title>
-    <style>
-        body {
-            background-color: grey;
-            color: skyblue;
-            font-family: Arial, sans-serif;
-        }
-        #resultFactorial, #resultFibonacci {
-            margin-top: 20px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Discord Bot</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <h1>Intrepid Calculator</h1>
+    <!-- Header Section -->
+    <header class="bg-dark text-white text-center p-4">
+        <h1>Mathematical Discord Bot</h1>
+        <p>A bot that solves complex mathematical problems for you!</p>
+    </header>
 
-    <h2>Factorial Calculator</h2>
-    <input id="numberFactorial" type="number" placeholder="Enter a number for factorial" />
-    <button onclick="calculateFactorial()">Calculate Factorial</button>
-    <div id="resultFactorial"></div>
+    <!-- Features Section -->
+    <section id="features" class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Problem Solving</h3>
+                <p>The bot can solve a wide range of mathematical problems, including algebra, calculus, and more.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Quick Responses</h3>
+                <p>The bot provides instant responses to your mathematical queries, saving you time and effort.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Easy to Use</h3>
+                <p>Simply type your mathematical problem in the chat and the bot will provide the solution.</p>
+            </div>
+        </div>
+    </section>
 
-    <h2>Fibonacci Calculator</h2>
-    <input id="numberFibonacci" type="number" placeholder="Enter a number for Fibonacci" />
-    <button onclick="calculateFibonacci()">Calculate Fibonacci</button>
-    <div id="resultFibonacci"></div>
+    <!-- Discord Bot Image -->
+    <section id="discord-bot" class="text-center mt-5">
+        <img src="discord-bot.png" alt="Discord Bot" width="300">
+    </section>
 
-    <script>
-        function calculateFactorial() {
-            var number = document.getElementById('numberFactorial').value;
-            if (number < 0 || number % 1 != 0 || number > 170) {
-                document.getElementById('resultFactorial').innerHTML = 'Error: Input must be a non-negative integer less than or equal to 170';
-                return;
-            }
-            var result = factorial(number);
-            document.getElementById('resultFactorial').innerHTML = 'Result: ' + result;
-        }
+    <!-- Contact Form -->
+    <section id="contact" class="container mt-5">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
 
-        function factorial(n) {
-            let result = 1;
-            for (let i = 2; i <= n; i++)
-                result *= i;
-            return result;
-        }
-
-        function calculateFibonacci() {
-            var number = document.getElementById('numberFibonacci').value;
-            if (number < 0 || number % 1 != 0) {
-                document.getElementById('resultFibonacci').innerHTML = 'Error: Input must be a non-negative integer';
-                return;
-            }
-            var result = fibonacci(number);
-            document.getElementById('resultFibonacci').innerHTML = 'Result: ' + result;
-        }
-
-        function fibonacci(n) {
-            if (n <= 0) return 0;
-            if (n == 1) return 1;
-
-            let a = 0;
-            let b = 1;
-
-            for (let i = 2; i <= n; i++) {
-                let c = a + b;
-                a = b;
-                b = c;
-            }
-
-            return b;
-        }
-    </script>
+    <!-- Bootstrap & jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
 
