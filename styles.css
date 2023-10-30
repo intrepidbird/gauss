@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-weight: bold;
+}
+
+#features {
+    padding: 40px 0;
+}
+
+#discord-bot {
+    padding: 40px 0;
+}
+
+#contact {
+    padding: 40px 0;
+}
