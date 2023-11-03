@@ -11,7 +11,7 @@
 
 ⭐ **Remember to star our Repository!**
 
-🌐 - [**Gauss Website**](https://sites.google.com/view/intrepidbot-math)
+🌐 - [**Gauss Website**](https://intrepidbird.github.io/gauss/)
 
 💻 - [**Gauss Source Code (Python)**](https://github.com/intrepidbird/intrepidbot/blob/main/mathbot/main.py)
 
