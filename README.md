@@ -3,7 +3,7 @@
 
 ![image](https://github.com/intrepidbird/gauss/assets/140008493/8472133c-1544-4462-a5f7-18455ce5ca96)
 
-🤖 Gauss is a powerful math bot developed by [`IntrepidBird`](https://github.com/intrepidbird) & [`IntrepidHackers`](https://sites.google.com/view/intrepidhackers).
+🤖 Gauss is a powerful math bot developed by [`IntrepidBird`](https://github.com/intrepidbird) & [`IntrepidMaths`](github.com/intrepidmaths).
 
 💻 It offers a wide range of advanced calculators, including matrix, eigenvalues, graphing, scientific, and factorial calculators. This bot also integrates with AI services such as Wolfram Alpha and OpenAI for enhanced functionality.
 
@@ -50,7 +50,7 @@
 
 ## Getting Started
 
-👨‍💻 To use Gauss, you can either join the  `IntrepidHackers` Discord Server or follow these steps:
+👨‍💻 To use Gauss, you can either join the  `IntrepidMaths` Discord Server or follow these steps:
 
 1. Clone the repository.
 2. Run `python3 main.py` (Don't forget to change the bot token and Wolfram Alpha ID to use Gauss).
@@ -94,7 +94,7 @@ Please review our [Code of Conduct](https://github.com/intrepidbird/intrepidbot/
 
 * [`IntrepidBird`](https://github.com/intrepidbird)
 
-* [`IntrepidHackers`](https://sites.google.com/view/intrepidhackers)
+* [`IntrepidMaths`](https://sites.google.com/view/IntrepidMaths)
 
 
 ## Twin Project
