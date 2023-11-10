@@ -1,7 +1,7 @@
 # Gauss Mathematics
 ## A Discord Bot for Mathematical Calculations 
 
-![image](https://github.com/intrepidbird/intrepidbot/assets/140008493/7ca66ad9-1da6-4764-99e4-ef0b09cd542c)
+![image](https://github.com/intrepidbird/gauss/assets/140008493/8472133c-1544-4462-a5f7-18455ce5ca96)
 
 🤖 Gauss is a powerful math bot developed by [`IntrepidBird`](https://github.com/intrepidbird) & [`IntrepidHackers`](https://sites.google.com/view/intrepidhackers).
 
