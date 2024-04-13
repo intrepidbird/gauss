@@ -17,7 +17,7 @@ from sympy import symbols, lambdify
 from sympy.parsing.sympy_parser import parse_expr
 import openai
 
-client = wolframalpha.Client('wolfram_id')
+client = wolframalpha.Client('wolfram_id') # In a private server this would be here but it is good practice not to leak codes publically
 aeval = Interpreter()
 app = Flask('')
 
@@ -277,5 +277,5 @@ async def combination(ctx, n:int, r:int):
     ans = ans/(math.factorial(n-r) * math.factorial(r))
     await ctx.send(f"The value of C({n},{r}) is: {ans}")
     
-bot.run('token')
+bot.run('token') # In a private server this would be here but it is good practice not to leak codes publically
 
